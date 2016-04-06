@@ -1,0 +1,1 @@
+module.exports = 'Hello, World! I am SCQ!';
