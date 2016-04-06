@@ -1,0 +1,20 @@
+{
+  "name": "demo4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styles": "webpack --config webpack.styles.config.js",
+    "extract-text": "webpack --config webpack.extracttext.config.js",
+    "autoprefixer": "webpack --config webpack.autoprefixer.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  }
+}
